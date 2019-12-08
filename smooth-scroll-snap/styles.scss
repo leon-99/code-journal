@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  overflow: auto;
+  flex: none;
+  width: 100vw;
+  height: 100vh;
+  flex-flow: column nowrap;
+}
+
+.y-scroll-snap {
+    scroll-snap-type: y mandatory;
+
+}
+
+.wrapper > div {
+  text-align: center;
+  scroll-snap-align: center;
+  flex: none;
+   line-height: 3;
+  font-size: 128px;
+  width: 100%;
+  height: 100%;
+}
+
+.card_1 {
+    background-color: #147A6E;
+}
+
+.card_2 {
+    background-color: #499F68;
+}
+
+.card_3 {
+    background-color: #77B28C;
+}
+
+.card_4 {
+    background-color: #C2C5BB;
+}
+
+.card_5 {
+    background-color: #B4654A;
+}
