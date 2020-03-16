@@ -1,4 +1,4 @@
-// Multiply numeric properties by 2
+// Multiply only numeric properties by 2
 
 let menu = {
     width: 200,

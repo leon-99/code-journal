@@ -1,4 +1,4 @@
-// Get sum of an object
+// Get sum of the numbers in an object
 
 let salaries = {
     John: 100,

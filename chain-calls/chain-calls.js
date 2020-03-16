@@ -1,5 +1,8 @@
-// Chain calls
-// Returns the object itself from each functions
+/*
+Chain Calls
+Returns the object itself from each functions.
+so it could use like this ladder.up().down().countSteps()
+*/
 
 let ladder = {
     steps: 0,
