@@ -1,22 +1,14 @@
-function createChessBoard(row, column) {
-    for (let i = 0; i < row; i++) {
-        for (let j = 0; j < column; j++) {
-            if ( i % 2 == 0) {
-                if (j % 2 == 0 ) {
-                    document.write('O');
-                } else {
-                    document.write('X');
-                }
-            } else if (i% 2 != 0) {
-                if (j % 2 != 0 ) {
-                    document.write('O');
-                } else {
-                    document.write('X');
-                }
-            }
+function createChessBoard(size) {
+    var board = "";//this is the empty string we're going to add either ' ' , '#' or newline
+    for (let y = 0; y < size; y++) {   /*in the outer loop we add newline to seperate rows*/
+        for (let x = 0; x < size; x++) {/*every inner loop rappresents a line, and alternatively it's adding either ' ' or '#' to the string that's being populated*/
+            if ((x + y) % 2 == 0)
+                board += " ";
+            else
+                board += "#";
         }
-        document.write('<br>');
+        board += "\n";
     }
+    console.log(board);
 }
-
-createChessBoard(20, 20);
+createChessBoard(7);
