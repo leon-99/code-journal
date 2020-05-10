@@ -7,9 +7,7 @@ console.log(String.fromCodePoint(98)); // b
 
 let str = '';
 
-for (let i = 65; i <= 220; i++) {
-  str += String.fromCodePoint(i);
-}
+for (let i = 65; i <= 220; i++) str += String.fromCodePoint(i);
 
 console.log(str); // ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
                   // ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜ

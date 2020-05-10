@@ -7,13 +7,8 @@ let salaries = {
 }
 
 function getSum(obj) {
-    let sum = 0;
-    for (let key in obj) {
-        sum += obj[key];
-    }
+    let sum = 0
+    for (const key in obj) if (Number.isInteger(obj[key])) sum += obj[key]
     return sum
 }
-
-let sum = getSum(salaries);
-
-console.log(sum);
+console.log(getSum(salaries));
