@@ -2,8 +2,6 @@
 
     concat will copy an array with including given values.
     can also use for joining two arrays.
-
-    Usage: arr.concat(items)
 */
 
 let arr = [1, 2, 3]

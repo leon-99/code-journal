@@ -3,7 +3,16 @@
     splice method is like a swiss army knife for arrays.
     you can delete items for wherever inde you want and you can also replace them.
 
-    Usage: arr.splice(index, deleteCount, itemsToReplace) 
+    Parameters:
+        callback:
+            the call back function
+
+            index:
+                The index at which to start changing the array.
+            deleteCount:
+                items to remove.
+            itemsToReplace:
+                items that will replace at removed index.
 */
 
 

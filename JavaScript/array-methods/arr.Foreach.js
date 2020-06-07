@@ -1,10 +1,19 @@
 /* Array forEach method
     
     forEach method will loop through an array and do something you want with each items.
-
-    Usage: arr.forEach((item, index, arr) => {
-        do something
-    })
+    
+    Parameters:
+        callback:
+            the callback function
+            
+            currentElement:
+                The current element being processed in the array.
+            index: 
+                The index of the current element being processed in the array.
+            array:
+                the target array 
+            thisArg:
+                Value to use as this when executing callback.
 */
 
 let arr = ['Leon', 'Klaus', 'Katheine', 'Diana'];
