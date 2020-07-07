@@ -8,3 +8,4 @@ function calcTime(offset) {
             seconds: nd.getSeconds()
         }
     }
+console.log(calcTime(-7)); // Pacific Time (PT)
