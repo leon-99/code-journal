@@ -34,5 +34,5 @@ let arr = [{
     }
 ];
 
-console.log(arr.find(i => i.age < 30)) // { id: 1, name: 'Leon', age: 21 }
-console.log(arr.filter(i => i.age < 30)) // [ { id: 1, name: 'Leon', age: 21 }, { id: 2, name: 'Katherine', age: 20 } ]
+console.log(arr.find(element => element.age < 30)) // { id: 1, name: 'Leon', age: 21 }
+console.log(arr.filter(element => element.age < 30)) // [ { id: 1, name: 'Leon', age: 21 }, { id: 2, name: 'Katherine', age: 20 } ]

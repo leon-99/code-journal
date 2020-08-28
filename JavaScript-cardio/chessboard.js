@@ -8,4 +8,5 @@ function createChessBoard(size) {
     }
     console.log(board);
 }
+
 createChessBoard(7);

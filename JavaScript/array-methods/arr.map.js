@@ -17,5 +17,5 @@
 */
 
 const arr = [1, 2, 3];
-const arrTwo = arr.map(i => i * 2);
+const arrTwo = arr.map(element => element * 2);
 console.log(arrTwo) // [ 2, 4, 6 ]
