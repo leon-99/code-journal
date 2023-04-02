@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+i {
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    animation: animate;
+    animation-duration: 2s;
+
+    /* to set how the animation's motion works */
+    animation-timing-function: linear;
+
+    /* to set how many times the animate runs, it ca be a number or infinite */
+    animation-iteration-count: infinite;
+}
+
+@keyframes test {
+    0%, 100%{
+        background-color: aliceblue;
+    }
+
+    25% {
+        background-color: red;
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: blue;
+    }
+}
+

@@ -1,0 +1,9 @@
+body {
+    /* gradient color
+            the first argument is for the direction, it can be top, left etc.. or a deg value
+    */
+    /* background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet) */
+
+    /* radical gradient can also specify the shape of the gradient */
+    /* background: radial-gradient(circle farthest-corner at top left, red, blue); */
+}
