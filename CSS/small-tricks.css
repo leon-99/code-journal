@@ -1,0 +1,15 @@
+/* to show the string wih the exact spaces and new lines */
+element {
+    white-space: pre-wrap;
+}
+
+/* to fix the text overflow */
+element {
+    overflow-wrap: break-word;
+}
+
+/* to scroll down smoothly to a specific section when you click on an button with the section ID */
+/* use scroll-behavior on the entire html tag */
+html {
+	scroll-behavior: smooth;
+}
