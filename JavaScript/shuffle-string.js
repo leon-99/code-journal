@@ -1,0 +1,1 @@
+word = [...word].sort(()=>Math.random()-.5).join('');
