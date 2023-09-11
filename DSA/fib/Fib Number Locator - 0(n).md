@@ -1,7 +1,8 @@
-/*
-This would only take O(n) time complexity.
-*/
+# Fib Number Locator - 0(n)
 
+This would only take O(n) time complexity.
+
+```javascript
 const fib = (n, memo = {}) => {
     if (n in memo) return memo[n];
     if(n <= 2) return 1;
@@ -13,3 +14,4 @@ console.log(fib(6)); // 8
 console.log(fib(7)); // 13
 console.log(fib(8)); // 21
 console.log(fib(50)); // 12586269025
+```
