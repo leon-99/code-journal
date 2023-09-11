@@ -7,7 +7,7 @@ Sometimes it can be difficult to determine all of a model's available attributes
 > php artisan model:show Posts
 ---
 
-### Rrsreshing Models
+### Refeshing Models
 
 ```php
 $flight = Flight::where('number', 'FR 900')->first();
