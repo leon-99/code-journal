@@ -168,3 +168,5 @@ whereAny
 ```php
     User::whereAll(['name', 'email'], 'LIKE', '%admin%');
 ```
+
+test
