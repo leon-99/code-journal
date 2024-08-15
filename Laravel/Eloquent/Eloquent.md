@@ -18,6 +18,7 @@ $flight->refresh();
  
 $flight->number; // "FR 900"
 ```
+
 ---
 
 ### Getting Only a Chunck of All Data
@@ -34,6 +35,7 @@ Flight::chunk(200, function (Collection $flights) {
     }
 });
 ```
+
 ---
 
 ### Chunk By ID
@@ -46,6 +48,7 @@ Flight::where('departed', true)
         $flights->each->update(['departed' => false]);
     }, $column = 'id');
 ```
+
 ---
 
 ### Model Record Not Found, Default Data
@@ -61,6 +64,7 @@ $flight = Flight::where('legs', '>', 3)->firstOr(function () {
     // ...
 });
 ```
+
 ---
 
 ### Model Record Not Found, Instantiate New
@@ -90,9 +94,10 @@ $flight = Flight::firstOrNew(
     ['delayed' => 1, 'arrival_time' => '11:30']
 );
 ```
+
 ---
 
-### Get Original Values 
+### Get Original Values
 
 ```php
 $user = User::find(1);
@@ -105,11 +110,12 @@ $user->name; // Jack
  
 $user->getOriginal('name'); // John
 ```
+
 ---
 
 ### Auto Delete Old Records
 
-https://laravel.com/docs/10.x/eloquent#pruning-models
+<https://laravel.com/docs/10.x/eloquent#pruning-models>
 
 ---
 
@@ -118,6 +124,7 @@ https://laravel.com/docs/10.x/eloquent#pruning-models
 Model events such as saved, updated, deleting, and deleted will not be dispatched when using mess updates or mass deletes, because they are never actually retrieved when performing mass updates or deletes.
 
 * Events won't triggered
+
 ```php
 User::update([
     'name' => 'John Doe'
@@ -125,6 +132,7 @@ User::update([
 ```
 
 * Events will trigger
+
 ```php
 $user = User::find($id);
 
@@ -132,4 +140,31 @@ $user->name = 'John Doe';
 
 $user->save();
 ```
+
 ---
+
+### whereAll, whereAny
+
+In laravel 10, you can now use whereAll and whereAny methods on search and filters operations.
+
+Before
+
+```php
+    User::query()
+            ->where(function($query) {
+                $query->where('name', 'LIKE', '%admin%')
+                      ->orWhere('name', 'LIKE', '%admin%');
+            })
+```
+
+whereAny
+
+```php
+    User::whereAny(['name', 'email'], 'LIKE', '%admin%');
+```
+
+whereAny
+
+```php
+    User::whereAll(['name', 'email'], 'LIKE', '%admin%');
+```
