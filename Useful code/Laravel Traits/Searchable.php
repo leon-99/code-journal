@@ -28,4 +28,20 @@ trait Searchable
     // ];
     
     // $users = User::search($filters)->get();
+
+    public function scopeOrWhereSearch($query, $filters)
+    {
+        $isFirst = true;
+
+        foreach ($filters as $filter => $value) {
+            if ($isFirst) {
+                $query->where($filter, 'like', '%' . $value . '%');
+                $isFirst = false;
+            } else {
+                $query->orWhere($filter, 'like', '%' . $value . '%');
+            }
+        }
+
+        return $query;
+    }
 }
