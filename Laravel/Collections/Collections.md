@@ -338,28 +338,34 @@ $plucked->all();
 
 $collection->pluck('speakers.first_day'); // [['Rosa', 'Judith'], ['Abigail', 'Joey']]
 ```
+
 ---
 
 ### random()
+
 The random method returns a random item from the collection.
+
 ```php
 $collection = collect([1, 2, 3, 4, 5]);
- 
+
 $collection->random();
- 
+
 // 4 - (retrieved randomly)
 ```
+
 ---
 
 ### reverse()
+
 The reverse method reverses the order of the collection's items, preserving the original keys.
+
 ```php
 $collection = collect(['a', 'b', 'c', 'd', 'e']);
- 
+
 $reversed = $collection->reverse();
- 
+
 $reversed->all();
- 
+
 /*
     [
         4 => 'e',
@@ -370,60 +376,70 @@ $reversed->all();
     ]
 */
 ```
+
 ---
 
 ### search
+
 The search method searches the collection for the given value and returns its key if found. If the item is not found, false is returned.
+
 ```php
 $collection = collect([2, 4, 6, 8]);
- 
+
 $collection->search(4);
- 
+
 // 1
 ```
+
 ---
 
 ### shuffle()
+
 The shuffle method randomly shuffles the items in the collection.
+
 ```php
 $collection = collect([1, 2, 3, 4, 5]);
- 
+
 $shuffled = $collection->shuffle();
- 
+
 $shuffled->all();
- 
+
 // [3, 2, 5, 1, 4] - (generated randomly)
 ```
+
 ---
 
 ### sort()
+
 The sort method sorts the collection. The sorted collection keeps the original array keys, so in the following example we will use the values method to reset the keys to consecutively numbered indexes.
 
 ```php
 $collection = collect([5, 3, 1, 2, 4]);
- 
+
 $sorted = $collection->sort();
- 
+
 $sorted->values()->all();
- 
+
 // [1, 2, 3, 4, 5]
 ```
-use `sortDesc()` to sort opposite order.
----
+
+## use `sortDesc()` to sort opposite order.
 
 ### sortBy()
+
 The sortBy method sorts the collection by the given key. The sorted collection keeps the original array keys, so in the following example we will use the values method to reset the keys to consecutively numbered indexes.
+
 ```php
 $collection = collect([
     ['name' => 'Desk', 'price' => 200],
     ['name' => 'Chair', 'price' => 100],
     ['name' => 'Bookcase', 'price' => 150],
 ]);
- 
+
 $sorted = $collection->sortBy('price');
- 
+
 $sorted->values()->all();
- 
+
 /*
     [
         ['name' => 'Chair', 'price' => 100],
@@ -432,38 +448,48 @@ $sorted->values()->all();
     ]
 */
 ```
+
 use `sortByDesc()` to sort opposite order.
 
 ---
 
 ### sum()
+
 The sum method returns the sum of all items in the collection.
+
 ```php
 collect([1, 2, 3, 4, 5])->sum(); // 15
 ```
+
 ---
 
 ## convert to
+
 `toArray()`
 `toJson`
 
 ---
 
 ### unique()
+
 The unique method returns all of the unique items in the collection. The returned collection keeps the original array keys, so in the following example we will use the values method to reset the keys to consecutively numbered indexes.
+
 ```php
 $collection = collect([1, 1, 2, 2, 3, 4, 2]);
- 
+
 $unique = $collection->unique();
- 
+
 $unique->values()->all();
- 
+
 // [1, 2, 3, 4]
 ```
+
 ---
 
 ### whereBetween()
+
 The whereBetween method filters the collection by determining if a specified item value is within a given range.
+
 ```php
 $collection = collect([
     ['product' => 'Desk', 'price' => 200],
@@ -472,11 +498,11 @@ $collection = collect([
     ['product' => 'Pencil', 'price' => 30],
     ['product' => 'Door', 'price' => 100],
 ]);
- 
+
 $filtered = $collection->whereBetween('price', [100, 200]);
- 
+
 $filtered->all();
- 
+
 /*
     [
         ['product' => 'Desk', 'price' => 200],
@@ -485,4 +511,5 @@ $filtered->all();
     ]
 */
 ```
+
 ---
