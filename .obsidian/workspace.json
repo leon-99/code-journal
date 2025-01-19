@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "801a6a280beb6af9",
+    "type": "split",
+    "children": [
+      {
+        "id": "896622b0be9323a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95ad3b2b6602ec21",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9363ddb6a2f902d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "edafc5e7308c884f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d239cd321416a4c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5e807f4fde8d5382",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "91f4602b8e2c8661",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "53c4a9923d14ea74",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e814918c1cce204",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "138ba3afff893f34",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7a3384612c4f5367",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "4e028a7c003b87e6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "085a2754c416cff0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "95ad3b2b6602ec21",
+  "lastOpenFiles": [
+    "DSA/fib/Fib Number Locator - 0(2^n).md",
+    "DSA/fib/Fib Number Locator - 0(n).md",
+    "Computer Science.md",
+    "web-design/Web Design.md",
+    "Useful code/Useful Code.md",
+    "Python/Python.md",
+    "PHP/PHP.md",
+    "Laravel/Laravel.md",
+    "Laravel/tips.md",
+    "Laravel/Request.md",
+    "Laravel/index.md",
+    "Laravel/Eloquent/Eloquent.md",
+    "JavaScript/JavaScript.md",
+    "css/CSS Tricks.md"
+  ]
+}
