@@ -46,4 +46,9 @@ $\Theta$ Both
 (The running time grows extremely quickly as the input size increases, typically found in algorithms that involve generating all possible permutations.)
 
 
+| Input    | Constant           | Logarithmic         | Linear               | Log-linear            | Quadratic          | Cubic                      | Polynomial                  | Exponential                      | Factorial                       |
+| -------- | ------------------ | ------------------- | -------------------- | --------------------- | ------------------ | -------------------------- | --------------------------- | -------------------------------- | -------------------------------- |
+| $$n$$    | $$\Theta(1)$$      | $$\Theta(\log n)$$  | $$\Theta(n)$$        | $$\Theta(n \log n)$$  | $$\Theta(n^2)$$    | $$\Theta(n^3)$$            | $$\Theta(n^c)$$             | $$2^{\Theta(n)}$$                | $$\Theta(n!)$$                  |
+| $$1000$$ | $$1$$              | $$\approx 10$$      | $$1000$$             | $$\approx 10,000$$    | $$1,000,000$$      | $$1,000,000,000$$          | $$1000^c$$                  | $$2^{1000} \approx 10^{301}$$    | $$\approx 4.02 \times 10^{2567}$$|
+| Time     | $$1 \, \text{ns}$$ | $$10 \, \text{ns}$$ | $$1 \, \mu\text{s}$$ | $$10 \, \mu\text{s}$$ | $$1 \, \text{ms}$$ | $$1 \, \text{s}$$          | $$10^{3c - 9} \, \text{s}$$ | $$10^{281} \, \text{millennia}$$ | $$10^{2564} \, \text{millennia}$$|
 

@@ -1,25 +1,25 @@
-## Data Struactures
+## Data Structures
 
-### Interface VS Struactures
+### Interface VS Structures
 
 #### Interface
 - Specification.
 - What data can store.
 - What operations are supported and what they mean.
 
-#### Data Struactures
+#### Data Structures
 - Implementation.
 - How data is stored.
 - How operations are performed.
-- Algorithms to support operaions.
+- Algorithms to support operations.
 
 ### Two Main Interfaces
 - Set 
-- Sequences
+- Sequences [[Static Sequence Interface]] [[Dynamic Sequence Interface]]
 
 ### Two Main Sequences
-- arrays
-- pointer based
+- arrays [[Static Arrays]] [[Dynamic Arrays]]
+- pointer based [[Linked Lists]]
 
 ### Sequence Interfaces
 - Static Sequence Interface [[Static Sequence Interface]]
