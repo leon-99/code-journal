@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "896622b0be9323a2",
+        "id": "21551bc7de5f9429",
         "type": "tabs",
         "children": [
           {
-            "id": "95ad3b2b6602ec21",
+            "id": "1ef0ae2cf4820fe1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Algorithm Time Complexities.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Algorithm Time Complexities"
             }
           }
         ]
@@ -132,12 +136,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "DSA/Algorithm Time Complexities.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Algorithm Time Complexities"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -151,14 +158,26 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "95ad3b2b6602ec21",
+  "active": "1ef0ae2cf4820fe1",
   "lastOpenFiles": [
+    "DSA/Dynamic Arrays.md",
+    "DSA/DSA.md",
+    "Interfaces.md",
+    "DSA/Data Structures.md",
+    "DSA/Linked Lists.md",
+    "DSA/Interfaces.md",
+    "DSA/Algorithm Time Complexities.md",
+    "Computer Science.md",
+    "DSA/Static Sequence Interface.md",
+    "DSA/Dynamic Sequence Interface.md",
+    "DSA/Static Arrays.md",
+    "DSA/Static Arrays.txt",
     "DSA/fib/Fib Number Locator - 0(2^n).md",
     "DSA/fib/Fib Number Locator - 0(n).md",
-    "Computer Science.md",
     "web-design/Web Design.md",
     "Useful code/Useful Code.md",
     "Python/Python.md",

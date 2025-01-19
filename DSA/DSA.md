@@ -1,4 +1,7 @@
 ---
 node_size:
 ---
-[[Algorithms Time Complexities]]
+[[Algorithm Time Complexities]]
+[[Data Structures]]
+
+
