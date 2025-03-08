@@ -1,0 +1,5 @@
+# Distributed Computing
+
+## Introduction
+
+Distributed computing is a field of computer science that studies distributed systems. A distributed system is a system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another and serving as the one single service.

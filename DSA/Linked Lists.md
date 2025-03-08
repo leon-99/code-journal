@@ -18,7 +18,7 @@ Here is a simple diagram of a singly linked list:
 ---
 
 insert_first(x), delete_first(x):
-    Cost: $\Theta(1)$ Constant Time
+    Cost: $\Theta(1)$ Constant Time.
     Reason: When adding new data at the front of the list, the operation only involves updating the head pointer to point to the new node, and the new node's next pointer to point to the old head node. Similarly, deleting the first node only involves updating the head pointer to point to the next node in the list.
 
 
@@ -40,7 +40,7 @@ Steps:
 ---
 
 get_at(i), set_at(x, i):
-	Cost: $\Theta(i)$ Linear Time
+	Cost: $\Theta(i)$ Linear Time.
 	Reason: When getting or setting an item at any index, we must traverse the list from the head node to the ith node, which takes linear time proportional to the index `i`.
 
 Example of `get_at(i)`:
