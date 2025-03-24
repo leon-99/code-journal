@@ -1,5 +1,6 @@
 Eventual consistency ensures that all nodes in a distributed system will eventually reflect the same data, but not necessarily at the same time. This means that a read operation may return stale data until the system converges to a consistent state.
 
+> Asynchronous
 ## Key Characteristics
 - **Eventual Convergence**: All updates will propagate to all nodes, ensuring consistency over time.
 - **High Availability**: The system remains operational even during network partitions.

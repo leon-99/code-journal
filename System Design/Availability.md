@@ -1,12 +1,8 @@
-# Availability
-
-## Introduction
-
 Availability is a measure of a system's ability to remain operational and accessible when required for use. It is a critical aspect of system design, especially for applications that require high reliability and uptime.
 
-## Key Concepts
+#### Key Concepts
 
-### Uptime and Downtime
+##### Uptime and Downtime
 
 ```mermaid
 pie
@@ -18,7 +14,7 @@ pie
 - **Uptime**: The amount of time a system is operational and available.
 - **Downtime**: The amount of time a system is not operational or accessible.
 
-### High Availability (HA)
+##### High Availability (HA)
 
 High Availability refers to systems that are designed to be operational and accessible for a very high percentage of time. This is often achieved through redundancy and failover mechanisms.
 
@@ -28,7 +24,7 @@ graph TD
     A -->|Load Balancing| C[Secondary Server]
 ```
 
-### The Nine's of Availability
+##### The Nine's of Availability
 
 The term "nine's of availability" is used to describe the percentage of time a system is expected to be operational in a given year. Each additional nine represents a higher level of availability.
 

@@ -1,5 +1,7 @@
 Strong consistency ensures that all nodes in a distributed system reflect the same data at any given time. This guarantees that any read operation will always return the most recent write. When we tries to update some change to one server, it is pending until all servers agrees on the change and update all at the same time.
 
+> Synchronous
+
 ## Key Characteristics
 - **Immediate Consistency**: Updates are visible across all nodes instantly.
 - **Single System Image**: The system behaves as if there is only one copy of the data.

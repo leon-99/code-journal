@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2cad7c79078640fe",
+        "id": "a5e81e1b88a8bba6",
         "type": "tabs",
         "children": [
           {
-            "id": "c8a05696f7653156",
+            "id": "beb14d8e92ea8d56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design/Scalability/Scalability.md",
+                "file": "System Design/Scalability/Redundancy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scalability"
+              "title": "Redundancy"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 285.5,
+    "collapsed": true
   },
   "right": {
     "id": "53c4a9923d14ea74",
@@ -162,20 +163,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8a05696f7653156",
+  "active": "beb14d8e92ea8d56",
   "lastOpenFiles": [
     "System Design/Scalability/Horizontal Scaling.md",
-    "System Design/Consistency/Strong Consistency.md",
-    "System Design/Architecure Design/Architecure Design.md",
-    "System Design/Consistency/Consistency.md",
     "System Design/Scalability/Scalability.md",
-    "System Design/Scalability/Vertical Scaling.md",
-    "System Design/Scalability",
+    "System Design/ACID.md",
+    "System Design/Consistency/Consistency.md",
+    "System Design/Consistency/Strong Consistency.md",
     "System Design/Consistency/Eventual Consistency.md",
+    "System Design/Scalability/Redundancy.md",
+    "System Design/Scalability/Vertical Scaling.md",
+    "System Design/Availability.md",
+    "System Design/Scalability/Single Point of Failure.md",
+    "System Design/Architecure Design/Architecure Design.md",
+    "System Design/Scalability/spof",
+    "PHP/PHP.md",
+    "System Design/Scalability",
     "System Design/Consistency/Single Server",
     "System Design/Consistency",
     "System Design/Distributed Computing.md",
-    "System Design/Availability.md",
     "Untitled.canvas",
     "Untitled.md",
     "System Design/Design Patterns/Design Patterns.md",
@@ -190,10 +196,6 @@
     "DSA/Data Structures.md",
     "DSA/fib/Fib Number Locator - 0(n).md",
     "DSA/fib/Fib Number Locator - 0(2^n).md",
-    "RAM.md",
-    "Computer Science.md",
-    "DSA/DSA.md",
-    "Interfaces.md",
     "DSA/Static Arrays.txt"
   ]
 }

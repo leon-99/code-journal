@@ -82,7 +82,7 @@ sequenceDiagram
 
 In a distributed system with three servers, maintaining consistency becomes more complex due to potential network delays, partitioning, and replication. The choice of a consistency model will significantly impact the behavior of the system. Below are some considerations:
 
-- **Strong Consistency**: All three servers must agree on the state of the data before any operation is considered complete. This often requires a consensus protocol like Paxos or Raft.
+- **Strong Consistency**: All three servers must agree on the state of the data before any operation is considered complete. This often requires a consensus protocol like Paxos or Raft. 
 - **Eventual Consistency**: Updates are propagated asynchronously, and the servers will eventually converge to the same state. This model is more tolerant of network partitions but may lead to temporary inconsistencies.
 - **Quorum-Based Consistency**: A subset of servers (a quorum) must agree on the state of the data for an operation to be considered valid. This balances consistency and availability.
 
