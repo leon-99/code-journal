@@ -1,5 +1,3 @@
-# Sharding in Databases
-
 Sharding is a database architecture pattern that involves splitting a large database into smaller, more manageable pieces called "shards." Each shard is an independent database that contains a subset of the overall data. Sharding is often used to improve scalability, performance, and availability in distributed systems.
 
 ## How Sharding Works

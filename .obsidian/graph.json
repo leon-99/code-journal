@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -8,10 +8,24 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "file:System Design",
+      "query": "path:\"System Design\"  ",
       "color": {
         "a": 1,
-        "rgb": 5404128
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Code Axioms\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4632477
+      }
+    },
+    {
+      "query": "path:DSA  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
       }
     }
   ],
@@ -25,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.680320102432968,
+  "scale": 0.6621766869700486,
   "close": false
 }
