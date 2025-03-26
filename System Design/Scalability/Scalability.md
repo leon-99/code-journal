@@ -48,3 +48,5 @@ A Single Point of Failure (SPOF) is a component in a system that, if it fails, w
 - **Databases**: Implementing sharding or replication to handle large datasets.
 
 Scalability is a critical aspect of system design, ensuring systems can grow with user demand while maintaining efficiency and reliability.
+
+[[Redundancy]]

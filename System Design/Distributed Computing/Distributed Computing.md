@@ -30,3 +30,5 @@ graph TD
 ```
 
 These diagrams provide a visual representation of how distributed systems operate and how components interact within the system.
+
+[[Consistency]]
