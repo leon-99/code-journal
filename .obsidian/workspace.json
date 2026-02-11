@@ -11,10 +11,14 @@
             "id": "1c0249c96b6a05fe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "System Design/Distributed Computing/Distributed Computing.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Distributed Computing"
             }
           }
         ]
@@ -161,8 +165,8 @@
   },
   "active": "1c0249c96b6a05fe",
   "lastOpenFiles": [
-    "System Design/Architecure Design/Architecure Design.md",
     "System Design/Distributed Computing/Consistency/Consistency.md",
+    "System Design/Architecure Design/Architecure Design.md",
     "System Design/Database/Horizontal Partitioning.md",
     "System Design/Scalability/API Scaling.md",
     "System Design/Scalability/Database Scaling.md",
